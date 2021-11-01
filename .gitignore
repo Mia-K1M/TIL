@@ -1,6 +1,6 @@
-git rm -r --cached
+git rm -r --cached .
 git add .
-git commit -m ".gitignore cached removed"
+git commit -m 'clear git cache'
 git push
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode
