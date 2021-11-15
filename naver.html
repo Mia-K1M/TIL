@@ -8,45 +8,98 @@
   </head>
 
   <body>
-    <h1>
-      <a href="http://www.naver.com">
-        네이버
+    <header>
+      <h1>
+        <a href="http://www.naver.com"> 네이버 </a>
+      </h1>
+      <a
+        href="https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=16719"
+      >
+        네이버를 시작페이지로
       </a>
-    </h1>
-    <fieldset>
-      <legend>검색</legend>
-      <input />
-      <button>검색</button>
-    </fieldset>
+      <a href="https://jr.naver.com"> 쥬니어네이버 </a>
+      <a href="https://happybean.naver.com"> 해피빈 </a>
 
-    <ul> <!--unordered list-->
-      <li>메일</li> <!--list item-->
-      <li>카페</li> <!--list item-->
-      <li>블로그</li> <!--list item-->
-      <li>지식iN</li> <!--list item-->
-      <li>쇼핑</li> <!--list item-->
-      <li>쇼핑live</li> <!--list item-->
-      <li>Pay</li> <!--list item-->
-      <li>TV</li> <!--list item-->
-    </ul>
+      <fieldset>
+        <legend>검색</legend>
+        <select name="where" id="where" title="검색 범위 선택">
+          <option value="nexearch" selected="selected">통합검색</option>
+          <option value="blog">블로그</option>
+          <option value="cafe">카페</option>
+          <option value="cafename">- 카페명</option>
+          <option value="cafearticle">- 카페글</option>
+        </select>
+        <input placeholder="검색어를 입력해주세요." />
+        <button>검색</button>
+      </fieldset>
+    </header>
 
-    <ul> <!--unordered list-->
-      <li>사전</li> <!--list item-->
-      <li>뉴스</li> <!--list item-->
-      <li>증권</li> <!--list item-->
-      <li>부동산</li> <!--list item-->
-      <li>지도</li> <!--list item-->
-      <li>VIBE</li> <!--list item-->
-      <li>책</li> <!--list item-->
-      <li>웹툰</li> <!--list item-->
-    </ul>
+    <nav>
+      <ul>
+        <!--unordered list-->
+        <li>메일</li>
+        <!--list item-->
+        <li>카페</li>
+        <!--list item-->
+        <li>블로그</li>
+        <!--list item-->
+        <li>지식iN</li>
+        <!--list item-->
+        <li>쇼핑</li>
+        <!--list item-->
+        <li>쇼핑live</li>
+        <!--list item-->
+        <li>Pay</li>
+        <!--list item-->
+        <li>TV</li>
+        <!--list item-->
+      </ul>
 
-    <h2>실시간 검색어</h2>
-    <h3>로그인</h3>
-    <h3>뉴스</h3>
-    <h3>법률</h3>
-    <h3>쇼핑</h3>
-    <h6>쇼핑</h6>
+      <ul>
+        <!--unordered list-->
+        <li>사전</li>
+        <!--list item-->
+        <li>뉴스</li>
+        <!--list item-->
+        <li>증권</li>
+        <!--list item-->
+        <li>부동산</li>
+        <!--list item-->
+        <li>지도</li>
+        <!--list item-->
+        <li>VIBE</li>
+        <!--list item-->
+        <li>책</li>
+        <!--list item-->
+        <li>웹툰</li>
+        <!--list item-->
+      </ul>
+    </nav>
 
+    <main>
+      <h2>실시간 검색어</h2>
+      <h3>연합뉴스</h3>
+      <ol>
+        <li>html 공부중</li>
+        <li>제로초님 강의 벌써 2챕터 째</li>
+        <li>지금 당장 피자빵 먹고싶어</li>
+      </ol>
+      <h3>언론사목록</h3>
+      <ul>
+        <li><img src="./fresian.png" alt="프레시안" /></li>
+        <li><img src="./newsis.png" alt="뉴시스" /></li>
+      </ul>
+      <h3>로그인</h3>
+      <h3>뉴스</h3>
+      <h3>법률</h3>
+      <h3>쇼핑</h3>
+      <h6>쇼핑</h6>
+    </main>
+
+    <footer>
+      <div>공지사항</div>
+      <div>Creators</div>
+      <div>회사소개</div>
+    </footer>
   </body>
 </html>
