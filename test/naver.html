@@ -4,34 +4,40 @@
   <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./naver.css" />
     <title>NAVER</title>
   </head>
 
   <body>
     <header>
-      <h1>
-        <a href="http://www.naver.com"> 네이버 </a>
-      </h1>
-      <a
-        href="https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=16719"
-      >
-        네이버를 시작페이지로
-      </a>
-      <a href="https://jr.naver.com"> 쥬니어네이버 </a>
-      <a href="https://happybean.naver.com"> 해피빈 </a>
+      <div id="header-center"><!--가운데 정렬용 div-->
+        <h1>
+          <a href="http://www.naver.com"> 네이버 </a>
+        </h1>
+        
+        <div>
+          <a
+            href="https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=16719"
+          >
+            네이버를 시작페이지로
+          </a>
+          <a href="https://jr.naver.com"> 쥬니어네이버 </a>
+          <a href="https://happybean.naver.com"> 해피빈 </a>
+        </div>
 
-      <fieldset>
-        <legend>검색</legend>
-        <select name="where" id="where" title="검색 범위 선택">
-          <option value="nexearch" selected="selected">통합검색</option>
-          <option value="blog">블로그</option>
-          <option value="cafe">카페</option>
-          <option value="cafename">- 카페명</option>
-          <option value="cafearticle">- 카페글</option>
-        </select>
-        <input placeholder="검색어를 입력해주세요." />
-        <button>검색</button>
-      </fieldset>
+        <fieldset>
+          <legend>검색</legend>
+          <select name="where" id="where" title="검색 범위 선택">
+            <option value="nexearch" selected="selected">통합검색</option>
+            <option value="blog">블로그</option>
+            <option value="cafe">카페</option>
+            <option value="cafename">- 카페명</option>
+            <option value="cafearticle">- 카페글</option>
+          </select>
+          <input />
+          <button>검색</button>
+        </fieldset>
+      </div>
     </header>
 
     <nav>
