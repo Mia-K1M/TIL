@@ -1,6 +1,20 @@
 
 div#header-center { 
     margin: 0 auto; 
-    width: 1130px
+    width: 1080px
 }
 
+#header-search > h1 {
+    width: 222px;
+    height: 50px;
+    display: inline-block;
+}
+
+#header-search > h2 {
+    display: none;
+}
+
+#header-search > fieldset {
+    width: 700px;
+    display: inline-block;
+}
